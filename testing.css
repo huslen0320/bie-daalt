@@ -1,0 +1,160 @@
+.test-heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.test-head h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    padding-top: 120px;
+    padding-bottom: 64px;
+}
+
+.test-text{
+    display: flex;
+}
+
+.test-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.test-left h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.test-left p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+    margin-bottom: 64px;
+}
+
+.test-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 92px;
+    padding-left: 285px;
+}
+
+.test-right h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.test-right p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.career-detail{
+    display: flex;
+    padding: 64px 94px 70px;
+    background-color: #DCEAF5;
+}
+
+
+.career-main a{
+    font-weight: 600;
+    font-size: 24px;
+    color: #F58A07;
+}
+
+.career-main p{
+    font-weight: 500;
+    font-size: 24px;
+    padding-right: 92px;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.career-text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.apply h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    margin-top: 128px;
+    margin-bottom: 50px;
+}
+
+.input-name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-name input[type=text]{
+    width: 628px;
+    height: 55px;
+    outline: none;
+    border-radius: 30px;
+    padding: 18px 0 18px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9C9C9C;
+    background: rgba(210, 218, 237, 0.17);
+    border: 0;
+    margin-bottom: 24px;
+}
+
+.input-contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-contact input[type=text]{
+    width: 628px;
+    height: 55px;
+    outline: none;
+    border-radius: 30px;
+    padding: 18px 0 18px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9C9C9C;
+    background: rgba(210, 218, 237, 0.17);
+    border: 0;
+    margin-bottom: 24px;
+}
+
+.input-text-area textarea{
+    width: 100%;
+    height: 215px;
+    outline: none;
+    border-radius: 30px;
+    padding: 18px 0 18px 32px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #9C9C9C;
+    background: rgba(210, 218, 237, 0.17);
+    border: 0;
+}
+
+.sub-btn{
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-color: #F58A07;
+    width: 155px;
+    border-radius: 30px;
+    padding: 18px 32px;
+    margin-top: 32px;
+    margin-bottom: 128px;
+}
