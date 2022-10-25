@@ -164,7 +164,7 @@
     padding-left: 32px;
 }
 
-.latest-card a{
+.latest-card .arrow-right{
     font-weight: 500;
     font-size: 16px;
     line-height: 17px;
@@ -172,7 +172,3 @@
     padding-left: 32px;
 }
 
-.latest-card a::after{
-    content: '⟶';
-    padding-left: 8px;
-}
