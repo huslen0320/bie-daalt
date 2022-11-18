@@ -1,0 +1,130 @@
+.blog-section{
+    display: flex;
+}
+
+.blog-text .img{
+    display: flex;
+    align-items: center;
+    padding-bottom: 24px;
+    padding-top: 40px
+}
+
+.blog-text span{
+    font-weight: 400;
+    font-size: 16px;
+    color: #394149;
+    padding: 0 16px 0 8px;
+}
+
+.blog-text h2{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1D3444;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.blog-text p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color:#5B5B5B;
+    padding-right: 74px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+.blog-text a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #F58A07;
+}
+
+.arrow-right::after{
+    content: '⟶';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #F58A07;
+    padding: 0 5px;
+    position: absolute;
+    transform:translateX(0) translateY(0);
+    transition:transform 1s ease-in-out;
+}
+
+.blog-text:hover .arrow-right::after{transform:translateX(15px);}
+
+.blog-image img{
+    border-radius: 20px;
+}
+
+.latest-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.latest-text{
+    width: 60%;
+    margin-bottom: 64px;
+    margin-top: 128px;
+}
+
+.latest-text h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color:#1D3444;
+    margin-bottom: 25px;
+    margin: 0;
+}
+
+.latest-post{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.latest-card{
+    border-radius: 20px;
+    width: 400px;
+    height: 510px;
+    background-color: #fff;
+    margin-right: 26px;
+    background-color: #EDF7FF;
+    margin-bottom: 40px;
+}
+
+.latest-card img{
+    border-radius: 20px;
+}
+
+.latest-card h2{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 25px;
+    letter-spacing: -3%;
+    color: #0D1317;
+    margin-bottom: 17px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.latest-card p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #5B5B5B;
+    margin-bottom: 24px;
+    padding-left: 32px;
+}
+
+.latest-card .arrow-right{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    color: #F58A07;
+    padding-left: 32px;
+}
+
